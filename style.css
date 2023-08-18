@@ -305,10 +305,21 @@ main{
      font-size: 12px;
    }
 } */
-
+@media(max-width:1000px){
+  .content,.about, .contact{
+     width:60%;
+     margin: 20px auto;
+   }
+ }
+@media(max-width:700px){
+  .content,.about, .contact{
+     width:75%;
+     margin: 20px auto;
+   }
+ }
 @media(max-width:450px){
  .content,.about, .contact{
-    width:75%;
+    width:90%;
     margin: 20px auto;
   }
 }
